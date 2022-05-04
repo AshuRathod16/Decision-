@@ -1,43 +1,43 @@
 echo "Enter a Single Digit Number"
 read number
 
-if [ $number -eq 0 ]
+if [ $number = 0 ]
 then
 	echo "ZERO"
 
-elif [ $number -eq 1 ]
+elif [ $number = 1 ]
 then
 	echo "ONE"
 
-elif [ $number -eq 2 ]
+elif [ $number = 2 ]
 then
 	echo "Two"
 
-elif [ $number -eq 3 ]
+elif [ $number = 3 ]
 then
 	echo "THREE"
 
-elif [ $number -eq 4 ]
+elif [ $number = 4 ]
 then
 	echo "FOUR"
 
-elif [ $number -eq 5 ]
+elif [ $number = 5 ]
 then
 	echo "FIVE"
 
-elif [ $number -eq 6 ]
+elif [ $number = 6 ]
 then
 	echo "SIX"
 
-elif [ $number -eq 7 ]
+elif [ $number = 7 ]
 then
 	echo "SEVEN"
 
-elif [ $number -eq 8 ]
+elif [ $number = 8 ]
 then
 	echo "EIGHT"
 
-elif [ $number -eq 9 ]
+elif [ $number = 9 ]
 then
 	echo "NINE"
 
