@@ -52,4 +52,3 @@ elif [ $num5 -le $num1 ] && [ $num5 -le $num2 ] && [ $num5 -le $num3 ] && [ $num
 then
     echo $num5
 fi
-
